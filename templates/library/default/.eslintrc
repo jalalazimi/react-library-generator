@@ -1,0 +1,20 @@
+{
+	"extends": [
+		"airbnb-base",
+		"plugin:flowtype/recommended"
+	],
+	"plugins": [
+		"flowtype"
+	],
+	"rules": {
+		// special case for rewire __get__
+		"no-underscore-dangle": [
+			"error",
+			{
+				"allow": [
+					"__get__"
+				]
+			}
+		]
+	}
+}

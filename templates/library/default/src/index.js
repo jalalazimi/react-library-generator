@@ -1,23 +1,15 @@
+// @flow
 import React from 'react'
-import PropTypes from 'prop-types'
-
 import './style.scss'
 
-const propTypes = {
-	title: PropTypes.string.isRequired
+const PropTypes = {
+	title: Number
 }
 
-export default function Component (props) {
-	const { title } = props;
-	return (
-		<div className="component">
-			<h1>Welcome to {title}</h1>
-		</div>
-	)
-}
+const Component = ({ title = 'React Library Generator' }: PropTypes) => (
+	<div className="component">
+		<h1>Welcome to {title}</h1>
+	</div>
+)
 
-Component.defaultProps = {
-	name: 'React Library Generator'
-};
-
-Component.propTypes = propTypes
+export default Component
