@@ -13,7 +13,8 @@
 		"build": "rollup -c",
 		"start": "rollup -c -w",
 		"prepare": "npm run build",
-		"lint": "eslint src"
+		"lint": "eslint src",
+		"flow": "flow"
 	},
 	"peerDependencies": {
 		"react": "^15.0.0 || ^16.0.0",
@@ -27,12 +28,10 @@
 		"autoprefixer": "^9.4.3",
 		"babel-eslint": "^10.0.1",
 		"babel-plugin-transform-flow-strip-types": "^6.22.0",
-		"cross-env": "^5.1.4",
 		"eslint": "^5.0.1",
 		"eslint-plugin-flowtype": "^3.2.0",
 		"eslint-plugin-react": "^7.10.0",
 		"flow-bin": "^0.89.0",
-		"flow-typed": "^2.5.1",
 		"node-sass": "^4.11.0",
 		"react": "^16.4.1",
 		"react-dom": "^16.4.1",
@@ -50,8 +49,8 @@
 	],
 	"husky": {
 		"hooks": {
-			"pre-commit": "yarn lint",
-			"pre-push": "yarn lint"
+			"pre-commit": "yarn lint && yarn flow",
+			"pre-push": "yarn lint && yarn flow"
 		}
 	}
 }
