@@ -3,7 +3,7 @@ import babel from 'rollup-plugin-babel'
 import postcss from 'rollup-plugin-postcss'
 import commonjs from 'rollup-plugin-commonjs'
 import url from 'rollup-plugin-url'
-import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 
 import pkg from './package.json'
 

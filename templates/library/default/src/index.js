@@ -1,20 +1,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './style.css'
+import './style.scss'
 
 const propTypes = {
 	title: PropTypes.string.isRequired
 }
 
-export default function MyComponent (props) {
-	const { title } = props
+export default function Component (props) {
+	const { title } = props;
 	return (
-		<div className="my-component">
-			<h1>{title}</h1>
-			<p>This is an example component.</p>
+		<div className="component">
+			<h1>Welcome to {title}</h1>
 		</div>
 	)
 }
 
-MyComponent.propTypes = propTypes
+Component.defaultProps = {
+	name: 'React Library Generator'
+};
+
+Component.propTypes = propTypes
