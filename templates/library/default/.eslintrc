@@ -1,20 +1,12 @@
 {
-	"extends": [
-		"airbnb-base",
-		"plugin:flowtype/recommended"
-	],
 	"plugins": [
+		"react",
 		"flowtype"
 	],
-	"rules": {
-		// special case for rewire __get__
-		"no-underscore-dangle": [
-			"error",
-			{
-				"allow": [
-					"__get__"
-				]
-			}
-		]
-	}
+	"parser": "babel-eslint",
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:flowtype/recommended"
+	]
 }

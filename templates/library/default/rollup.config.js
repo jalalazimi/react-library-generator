@@ -4,7 +4,6 @@ import postcss from 'rollup-plugin-postcss'
 import commonjs from 'rollup-plugin-commonjs'
 import url from 'rollup-plugin-url'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
-import progress from 'rollup-plugin-progress'
 import flow from 'rollup-plugin-flow'
 
 import pkg from './package.json'
@@ -23,13 +22,13 @@ export default {
 			sourcemap: true
 		}
 	],
-	external: ['react', 'prop-types'],
+	external: [ 'react', 'prop-types' ],
 	plugins: [
 		url(),
 		flow(),
 		peerDepsExternal(),
 		postcss({
-			plugins: [autoprefixer],
+			plugins: [ autoprefixer ],
 			modules: true
 		}),
 		babel({

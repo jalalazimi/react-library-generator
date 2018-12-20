@@ -2,11 +2,11 @@
 import React from 'react'
 import './style.scss'
 
-const PropTypes = {
-	title: Number
+type Props = {
+	title: string
 }
 
-const Component = ({ title = 'React Library Generator' }: PropTypes) => (
+const Component = ({ title = 'React Library Generator' }: Props) => (
 	<div className="component">
 		<h1>Welcome to {title}</h1>
 	</div>
