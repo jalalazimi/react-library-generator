@@ -36,9 +36,6 @@ export default {
 			exclude: 'node_modules/**',
 			externalHelpers: true
 		}),
-		progress({
-			clearLine: false // default: true
-		}),
 		commonjs()
 	]
 }
