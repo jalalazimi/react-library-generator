@@ -2733,6 +2733,11 @@ json-stable-stringify-without-jsonify@^1.0.1:
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
 
+json-templater@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/json-templater/-/json-templater-1.2.0.tgz#d12c96c7781d8451d623a8bee9b58f6901a8b15e"
+  integrity sha512-u2l5PGQuLs6eoeAW6z7LOgyk17d7v4LutnO630ZQt1Nw9XxzepU4vD1HDlYV45d0aR3tBek4AK6GYWbEI0nhOQ==
+
 json5@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.0.tgz#e7a0c62c48285c628d20a10b85c89bb807c32850"

@@ -1,6 +1,8 @@
 {
 	"name": "react-library-generator",
+	"description": "",
 	"version": "1.0.0",
+	"author": "",
 	"main": "dist/index.js",
 	"module": "dist/index.es.js",
 	"jsnext:main": "dist/index.es.js",
@@ -12,7 +14,6 @@
 	"scripts": {
 		"build": "rollup -c",
 		"start": "rollup -c -w",
-		"prepare": "npm run build",
 		"lint": "eslint src",
 		"flow": "flow"
 	},
