@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-flow-strip-types": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "ava": "^1.0.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "react-addons-test-utils": "^15.6.2",
+    "ignore-styles": "^5.0.1"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.test.js"
+    ],
+    "require": [
+      "@babel/register",
+      "ignore-styles"
+    ]
+  }
+}
