@@ -35,7 +35,6 @@
     "commander": "^2.19.0",
     "conf": "^2.0.0",
     "cp-file": "^6.0.0",
-    "deepmerge": "^3.0.0",
     "edit-json-file": "^1.2.0",
     "execa": "^1.0.0",
     "git-config-path": "^2.0.0",
@@ -59,7 +58,6 @@
   },
   "devDependencies": {
     "ava": "^1.0.1",
-    "copy-json-file-merged": "^0.2.1",
     "exec-sh": "^0.3.2",
     "rmfr": "^2.0.0",
     "standard": "^12.0.1"

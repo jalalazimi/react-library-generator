@@ -1091,17 +1091,6 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
-copy-json-file-merged@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/copy-json-file-merged/-/copy-json-file-merged-0.2.1.tgz#417d3fca43b5b777c2557b9df8b4dd9dca320b84"
-  integrity sha512-txyu4rVnIyLXIeSVnGPiP4Hq5eQi0MIyv7pVHMKXI9yBYOU6tllB6zKrfT6dnXq5goCr56jrMOiLAvEYbIWPww==
-  dependencies:
-    jsonfile "^4.0.0"
-    lodash "^4.17.4"
-    merge-professor "^1.0.5"
-    minimist "^1.2.0"
-    mkdirp "^0.5.1"
-
 core-js@^2.0.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.1.tgz#87416ae817de957a3f249b3b5ca475d4aaed6042"
@@ -1234,11 +1223,6 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
-
-deepmerge@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.0.0.tgz#ca7903b34bfa1f8c2eab6779280775a411bfc6ba"
-  integrity sha512-a8z8bkgHsAML+uHLqmMS83HHlpy3PvZOOuiTQqaa3wu8ZVg3h0hqHk6aCsGdOnZV2XMM/FRimNGjUh0KCcmHBw==
 
 defaults@^1.0.3:
   version "1.0.3"
@@ -2095,7 +2079,7 @@ got@^9.0.0:
     to-readable-stream "^1.0.0"
     url-parse-lax "^3.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4, graceful-fs@^4.1.6:
+graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
@@ -2708,13 +2692,6 @@ jsonfile-updater@^3.1.0:
   resolved "https://registry.yarnpkg.com/jsonfile-updater/-/jsonfile-updater-3.1.0.tgz#fd29c28d85bb2a96200b53832643a17865db1e85"
   integrity sha512-G6DB55KX4Cc5t0Zpg4kfy2b3N592fahyoUJz5rk4VmS8lccXskgUbjUEX51iXMc6gh6sE7urmXWJsW6EqDozVQ==
 
-jsonfile@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
-  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
-  optionalDependencies:
-    graceful-fs "^4.1.6"
-
 jsx-ast-utils@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/jsx-ast-utils/-/jsx-ast-utils-2.0.1.tgz#e801b1b39985e20fffc87b40e3748080e2dcac7f"
@@ -2976,11 +2953,6 @@ meow@^5.0.0:
     redent "^2.0.0"
     trim-newlines "^2.0.0"
     yargs-parser "^10.0.0"
-
-merge-professor@^1.0.5:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/merge-professor/-/merge-professor-1.0.6.tgz#746f2e28110d65aaf945a35dc0a5561450b3a652"
-  integrity sha512-S64zX3DrSUWe8f+TmL3Y1DMQEnAVF3XN+sL7vwn85wzOHDWf07iiFz5PHktkhTYKx2tV6VXlahoc/AZwvPn21Q==
 
 merge2@^1.2.3:
   version "1.2.3"
