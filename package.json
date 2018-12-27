@@ -10,9 +10,6 @@
   "bin": {
     "react-library-generator": "index.js"
   },
-  "scripts": {
-    "test": "ava -v && standard *.js lib/*.js"
-  },
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -35,6 +32,7 @@
     "commander": "^2.19.0",
     "conf": "^2.0.0",
     "cp-file": "^6.0.0",
+    "deepmerge": "^3.0.0",
     "edit-json-file": "^1.2.0",
     "execa": "^1.0.0",
     "fs-extra": "^7.0.1",
