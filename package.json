@@ -11,7 +11,8 @@
     "react-library-generator": "index.js"
   },
   "files": [
-    "templates/"
+    "templates/",
+    "lib/"
   ],
   "engines": {
     "node": ">=8",
