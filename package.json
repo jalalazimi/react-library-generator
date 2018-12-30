@@ -12,6 +12,7 @@
   },
   "files": [
     "templates/**/*",
+    "templates/library/default",
     "lib/**/*"
   ],
   "engines": {
