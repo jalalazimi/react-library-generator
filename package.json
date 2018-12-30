@@ -10,6 +10,9 @@
   "bin": {
     "react-library-generator": "index.js"
   },
+  "files": [
+    "templates/"
+  ],
   "engines": {
     "node": ">=8",
     "npm": ">=5"
