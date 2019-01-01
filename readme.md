@@ -4,6 +4,10 @@
 
 React library generator is a CLI for creating starter scaffold for developing a library. One of the pains for developers who want to start a React library was knowing which structure to choose and how to set them up! We respond to this issue by providing you the option to select the tools that you prefer! 
 
+<p align="center">
+  <img width="600" src="https://raw.githubusercontent.com/jalalazimi/react-library-generator/master/media/logo.svg">
+</p>
+
 ## Features
 - Simple to use CLI and fully customizable
 - ES6 and Flow syntax support
