@@ -2,8 +2,7 @@
 [![](https://img.shields.io/npm/l/react-library-generator.svg)](https://github.com/jalalazimi/react-library-generator) [![](https://img.shields.io/node/v/react-library-generator.svg)](https://github.com/jalalazimi/react-library-generator) [![](https://img.shields.io/npm/v/react-library-generator.svg)](https://github.com/jalalazimi/react-library-generator)
 > Powerful CLI for creating a React libraries
 
-React library generator is a CLI for creating starter scaffold for developing a library. One of the pains for developers who want to start a React library was knowing which structure to choose and how to set them up! We respond to this issue by providing you the option to select the tools that you prefer! 
-
+React library generator is a CLI that helps you to build a scaffold for your library. It's fully customizable, and you can determine what you want. Also, this CLI create documentation for your library and provide various test utilities.
 
 ## Features
 - Simple to use CLI and fully customizable
