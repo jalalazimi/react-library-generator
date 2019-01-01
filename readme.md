@@ -16,6 +16,7 @@ React library generator is a CLI for creating starter scaffold for developing a 
 - Source map creation
 - Automatic code linting via esLint
 - Supports peer-dependencies
+- Protect your git branches with Husky
 - Check Library name availability on NPM before generating
 
 ## Installation
@@ -26,3 +27,12 @@ npm i -g react-library-generator
 ```
 yarn add global react-library-generator
 ```
+
+## Usage
+
+```
+$ react-library-generator
+```
+
+## License
+MIT © [Jalal Azimi](https://twitter.com/jalalazimi)
