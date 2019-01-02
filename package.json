@@ -32,6 +32,7 @@
     "npm-name": "^5.0.1",
     "ora": "^3.0.0",
     "prompts": "^2.0.0",
+    "semver": "^5.6.0",
     "terminal-link": "^1.1.0",
     "validate-npm-package-name": "^3.0.0"
   }
