@@ -44,7 +44,7 @@ The following file tree has represented the structure of the library. You can de
 At the moment, we use [Docz](https://www.docz.site/) for documentation and demo. but In the future, we provide other utilities such as Storybook for documentation.
 
 <p align="center">
-  <img src="https://unpkg.com/react-library-generator@0.1.5/assets/tree.png">
+  <img src="https://unpkg.com/react-library-generator@0.1.7/assets/tree.png">
 </p>
 
 > Note! We don't intend to restrict you to this structure, and all parts can be changed.
