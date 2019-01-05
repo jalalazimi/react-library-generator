@@ -38,5 +38,17 @@ yarn add global react-library-generator
 $ react-library-generator
 ```
 
+## library structure
+The following file tree has represented the structure of the library. You can develop your component on the `src` folder and writes tests on the `tests` folders. 😄
+
+At the moment, we use [Docz](https://www.docz.site/) for documentation and demo. but In the future, we provide other utilities such as Storybook for documentation.
+
+<p align="center">
+  <img src="https://unpkg.com/react-library-generator@0.1.5/assets/tree.png">
+</p>
+
+> Note! We don't intend to restrict you to this structure, and all parts can be changed.
+
+
 ## License
 MIT © [Jalal Azimi](https://twitter.com/jalalazimi)
