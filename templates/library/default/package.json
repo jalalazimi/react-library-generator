@@ -51,7 +51,7 @@
 	],
 	"husky": {
 		"hooks": {
-			"pre-commit": "yarn lint && yarn flow"
+			"pre-commit": "$packageManager lint && $packageManager flow"
 		}
 	}
 }
