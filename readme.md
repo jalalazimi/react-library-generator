@@ -5,7 +5,7 @@
 React library generator is a CLI that helps you to build a scaffold for your library. It's fully customizable, and you can determine what you want. Also, this CLI create documentation for your library and provide various test utilities.
 
 <p align="center">
-  <img width="600" src="https://unpkg.com/react-library-generator@0.1.2/assets/demo.svg">
+  <img width="600" src="https://unpkg.com/react-library-generator@0.1.3/assets/demo.svg">
 </p>
 
 ## Features
