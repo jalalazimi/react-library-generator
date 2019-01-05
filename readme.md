@@ -47,7 +47,7 @@ At the moment, we use [Docz](https://www.docz.site/) for documentation and demo.
   <img src="https://unpkg.com/react-library-generator@0.1.9/assets/tree.png">
 </p>
 
-> Note! We don't intend to restrict you to this structure, and all parts can be changed.
+> Note! We don't intend to restrict you to this structure, so all parts can be changed.
 
 
 ## License
