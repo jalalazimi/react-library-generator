@@ -3,7 +3,7 @@
 > Powerful CLI for creating a React libraries
 
 React library generator is a CLI that helps you to build a scaffold for your library. It's fully customizable, and you can determine what you want. Also, this CLI create documentation for your library and provide various test utilities.
-
+[![asciicast](https://asciinema.org/a/6pDkIkSe0FxRIYqX58YA8pdKv.svg)](https://asciinema.org/a/6pDkIkSe0FxRIYqX58YA8pdKv)
 ## Features
 - Simple to use CLI and fully customizable
 - ES6 and Flow syntax support
