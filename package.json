@@ -1,6 +1,6 @@
 {
   "name": "react-library-generator",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "CLI for create react libraries",
   "repository": "jalalazimi/react-library-generator",
   "author": "Jalal azimi <jalalazimi@gmail.com>",
